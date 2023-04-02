@@ -145,13 +145,13 @@
         }
 
         .wechat-text {
-        font-size: 1.2em;
+        font-size: 3em;
         font-weight: bold;
         }
 
         .wechat-qr img {
-        width: 120px;
-        height: 120px;
+        width: 400px;
+        height: 400px;
         }
 
 
@@ -167,9 +167,8 @@
     </style>
   </head>
   <body>
-    <form method="post" action="https://v-education.github.io/submit.php">
     <header>
-      <h1>V-Education EEElementary Course</h1>
+      <h1>V-Education Elementary Course</h1>
       <img class="logo" src="https://v-education.github.io/logo.png" alt="V-Education Logo">
     </header>
     <main>
@@ -188,49 +187,6 @@
         <section>
           <h2>Course Fee</h2>
           <p>The course fee is $500, which includes all course materials and access to our online learning platform.</p>
-        </section>
-        <section class="registration">
-            <h2>Registration Form</h2>
-            <form action="#" method="post">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-          
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-          
-              <label for="wechat">WeChat ID:</label>
-              <input type="text" id="wechat" name="wechat" required>
-          
-              <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" required>
-
-              <label for="course">Course:</label>
-              <select id="course" name="course">
-                <option value="beginner">Beginner</option>
-                <option value="elementary">Elementary</option>
-                <option value="pre-intermediate">Pre-Intermediate</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="upper-intermediate">Upper-Intermediate</option>
-                <option value="advanced">Advanced</option>
-              </select>
-              <input type="submit" value="Submit">
-            </form>
-            <div id="success-message"></div>
-            <script>
-                const form = document.getElementById('application-form');
-                const successMessage = document.getElementById('success-message');
-              
-                form.addEventListener('submit', (event) => {
-                  event.preventDefault();
-                  // do whatever you need to do with the form data here
-                  // ...
-              
-                  // display the success message
-                  successMessage.innerText = 'Your application submitted successfully, we will contact you as soon as possible!';
-                  form.reset(); // optional: reset the form after submission
-                });
-              </script>
-              
         </section>
         <section class="wechat-section">
             <div class="wechat-text">
