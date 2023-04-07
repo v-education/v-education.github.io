@@ -93,6 +93,25 @@
         width: 500px;
         height: 100px;
         text-align: center;
+        animation: shadow-pulse 5s ease-in-out infinite;
+      }
+            /* Animation for the text shadow */
+            @keyframes shadow-pulse {
+        0% {
+          text-shadow: 1px 1px 4px #ff4a4a;
+        }
+        25% {
+          text-shadow: 3px 5px 7px #f5fd00;
+        }
+        50% {
+          text-shadow: 7px 7px 10px #00ff15;
+        }
+        75% {
+          text-shadow: 5px 3px 7px #6e67ff;
+        }
+        100% {
+          text-shadow: 1px 1px 4px #ff4a4a;
+        }
       }
 
       .course-link:hover {
@@ -135,7 +154,9 @@
   <body>
     <header>
         <div class="logo-container">
-          <img src="https://v-education.github.io/logo.png" alt="Logo" class="logo">
+          <a href="index.html">
+             <img src="https://v-education.github.io/logo.png" alt="Logo" class="logo">
+          </a>
         </div>
         <h1>Upcoming Courses</h1>
     </header>
@@ -143,7 +164,7 @@
 
       <section>
       <div class="surat">
-        <img class="ad" src="https://i.ibb.co/CPM74KQ/5555.jpg" alt="Advertisement">
+        <img class="ad" src="https://v-education.github.io/5555.jpg" alt="Advertisement">
       </div>
       <h2>Please choose the course <br> you want to study from below</h2>
       <div class="course-names-column">
