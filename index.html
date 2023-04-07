@@ -83,8 +83,26 @@
         height: 50px;
         text-align: center;
         font-family: fantasy;
+        animation: shadow-pulse 5s ease-in-out infinite;
       }
-
+            /* Animation for the text shadow */
+            @keyframes shadow-pulse {
+        0% {
+          text-shadow: 1px 1px 1px #ff4a4a;
+        }
+        25% {
+          text-shadow: 3px 3px 1px #f5fd00;
+        }
+        50% {
+          text-shadow: 5px 5px 1px #6e67ff;
+        }
+        75% {
+          text-shadow: 3px 3px 1px #1eff00;
+        }
+        100% {
+          text-shadow: 1px 1px 1px #ff4a4a;
+        }
+      }
       .btn:hover {
         background-color: #ff00ee;
       }
