@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="coursestyles.css">
+    <title>V-Education Elementary Course</title>
+  </head>
+  <body>
+    <header>
+      <h1>V-Education <br>Elementary Course</h1>
+      <a href="index.html">
+        <img src="https://v-education.github.io/logo.png" alt="Logo" class="logo">
+     </a>
+    </header>
+    <main>
+      <h3>You're in the right place!</h3>
+      <h3> We're gonna make you speak fluent English whether you like it or not Lol) </h3>
+        <section>
+          <h2>Class Time</h2>
+          <p>The course runs for 12 weeks, with 1.5-hour lessons every Monday, Wednesday, and Friday from 5:30 pm to 7 pm.</p>
+        </section>
+        <section>
+          <h2>Class Teacher</h2>
+          <p>Our experienced and qualified teacher Ms. Ejesh with a passion for teaching will help YOU achieve Your goals!</p>
+          <div class="video">
+            <video class="video" width="640" height="400" controls>
+            <source src="https://v-education.github.io/video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+        <section>
+          <h2>Course Fee</h2>
+          <p>The course monthly fee is 159rmb, and for the whole course, it's 477rmb, which includes an Amazing learning experience and meeting interesting fellows. Just unforgettable memories for forgettable price LoL)</p>
+        </section>
+        <section>
+          <h2>Choose this course if you have difficulty understanding this story:</h2>
+          <p>Maggie was excited to go on a trip to New York City. She had always wanted to see the Statue of Liberty and visit Times Square. She woke up early and took a taxi to the airport. On the plane, she sat next to a friendly woman who asked her where she was going. Maggie said, "I'm going to New York City for vacation." The woman replied, "That sounds like fun! What are you planning to do there?" Maggie said, "I want to visit the Statue of Liberty and see the lights in Times Square." The woman said, "Those are great ideas! Have a wonderful trip!"</p>
+        </section>
+        <div class="faqstyle"> 
+        <h2>FAQs</h2>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(1)">Why should I choose you?</div>
+          <div class="faq__answer" id="answer-1">
+            We offer the cheapest and high-quality English language courses in China. You will start truly speaking in English with the help of our interesting teacher and having fun with your foreign coursemates!
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(2)">How long are your courses?</div>
+          <div class="faq__answer" id="answer-2">
+            3 Months (12 weeks).
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(3)">Where do I have classes?</div>
+          <div class="faq__answer" id="answer-3">
+            We have classes on Zoom.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(8)">What material do we use to study?</div>
+          <div class="faq__answer" id="answer-8">
+            <p>The course covers basic grammar, vocabulary, reading and writing skills, and conversational practice. During the course, we will use HEADWAY 5th edition Elementary course book.</p>
+          <img src="https://elifkitabevim.com/image/cache/catalog/headway-elm-575x575.png" alt="Logo" class="elementarybook">
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(6)">How to get the class material?</div>
+          <div class="faq__answer" id="answer-6">
+            We provide you with the PDF of books for absolutely FREE. You can also purchase printed books for 99rmb from us. 
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(4)">How many students will there be in one class?</div>
+          <div class="faq__answer" id="answer-4">
+            We have max 10 students in one classroom.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(5)">What if I miss one class?</div>
+          <div class="faq__answer" id="answer-5">
+            We record each class and the recording will be provided to you if you miss one class.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(7)">Can I study for FREE?</div>
+          <div class="faq__answer" id="answer-7">
+            YES! If you finish this course's exams with 100%, You can study the Pre-Intermediate course for FREE!
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(9)">Any Gifts for excellent students?</div>
+          <div class="faq__answer" id="answer-9">
+            Sure! We give exclusive V-Education notebooks to students who get 1st 2nd and 3rd highest scores in the season.
+          </div>
+        </div>
+        </div>
+        <div class="wechat-section">
+            <div class="wechat-text">
+                <p>For further information or application, please add our official WeChat account:</p>
+            </div>
+            <div class="wechat-qr">
+                <img src="https://v-education.github.io/wechatqr.jpg" alt="Wechat QR code">
+            </div>
+          </div>      
+          <div>
+            <h2>Contact Us</h2>
+            <div class="contact">
+              <a href="https://www.instagram.com/veducation_tm/" target="_blank" class="contact-link">
+                <i class="fab fa-instagram"></i>
+                <span class="contact-item">Instagram</span>
+              </a>
+              <a href="https://wa.me/1234567890" target="_blank" class="contact-link">
+                <i class="fab fa-whatsapp"></i>
+                <span class="contact-item">WhatsApp</span>
+              </a>
+              <a href="https://t.me/velementary" target="_blank" class="contact-link">
+                <i class="fab fa-telegram"></i>
+                <span class="contact-item">Telegram</span>
+              </a>
+            </div>
+          </div>
+      </main>
+      <footer>
+        Copyright © 2020 - 2023 V-Education LTC.
+        All Rights Reserved.
+      </footer>
+      <script>
+        function toggleAnswer(id) {
+          const answer = document.getElementById(`answer-${id}`);
+          answer.classList.toggle("is-open");
+        }
+      </script>
+    </body>
+  </html>

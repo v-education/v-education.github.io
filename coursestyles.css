@@ -1,0 +1,214 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+  }
+
+  /* Header styles */
+  header {
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #ffa600 0%, #df000f 74%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  /* Styling for the h3 text */
+  h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #a10000;
+    text-shadow: 1px 1px #ccc;
+    animation: shadow-pulse 3s ease-in-out infinite;
+  }
+
+  /* Animation for the text shadow */
+    @keyframes shadow-pulse {
+    0% {
+      text-shadow: 1px 1px 1px #ff4a4a;
+    }
+    25% {
+      text-shadow: 3px 3px 1px #f5fd00;
+    }
+    50% {
+      text-shadow: 5px 5px 1px #6e67ff;
+    }
+    75% {
+      text-shadow: 3px 3px 1px #1eff00;
+    }
+    100% {
+      text-shadow: 1px 1px 1px #ff4a4a;
+    }
+  }
+
+  .logo {
+    height: 120px;
+  }
+
+  /* Main styles */
+  main {
+    padding: 20px;
+    
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #ff1f1f;
+  }
+
+  p {
+    margin: 0 0 0px 0;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  /* Contact styles */
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .contact-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6c23e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+    width: 180px;
+    text-align: center;
+  }
+
+  .contact-link:hover {
+    background-color: #ffc107;    
+  }
+
+  .contact-item {
+   margin-left: 10px;
+  }
+
+  .fab {
+      font-size: 2em;
+      margin-right: 10px;
+  }
+  section{
+    border: 2px solid rgb(212, 0, 0);
+    border-radius: 150px 0px 150px 0px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(93, 0, 0, 0.607);
+  }
+
+  .faqstyle{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(104, 0, 0, 0.381);
+  }
+
+  .wechat-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    }
+
+    .wechat-text {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    }
+
+    .wechat-qr img {
+    width: 400px;
+    height: 400px;
+    }
+    .elementarybook {
+      height: 700px;
+    }
+
+
+  /* Footer styles */
+  footer {
+    color: rgb(67, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.4em;
+  }
+  .video{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  li{
+    margin-left: 200px ;
+  }
+
+  /* Styling for the FAQ section */
+  .faq {
+    margin-bottom: 30px;
+  }
+
+  .faq__question {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1e90ff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .faq__question:hover {
+    background-color: #0077be;
+  }
+
+  .faq__answer {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    display: none;
+  }
+
+  .faq__answer.is-open {
+    display: block;
+  }
