@@ -1,222 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="coursestyles.css">
     <title>V-Education Elementary Course</title>
-    <style>
-      /* General styles */
-      body {
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
-        background-color: #f5f5f5;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        
-      }
-
-      /* Header styles */
-      header {
-        background-color: #42378f;
-        background-image: linear-gradient(315deg, #ffa600 0%, #df000f 74%);
-        color: white;
-        text-align: center;
-        padding: 20px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
-
-      h1 {
-        font-size: 4em;
-        margin: 0;
-      }
-      
-      /* Styling for the h3 text */
-      h3 {
-        font-size: 2em;
-        margin-bottom: 30px;
-        color: #a10000;
-        text-shadow: 1px 1px #ccc;
-        animation: shadow-pulse 5s ease-in-out infinite;
-      }
-
-      /* Animation for the text shadow */
-      @keyframes shadow-pulse {
-        0% {
-          text-shadow: 1px 1px 4px #ff4a4a;
-        }
-        25% {
-          text-shadow: 3px 5px 7px #f5fd00;
-        }
-        50% {
-          text-shadow: 7px 7px 10px #00ff15;
-        }
-        75% {
-          text-shadow: 5px 3px 7px #0d00ff;
-        }
-        100% {
-          text-shadow: 1px 1px 4px #ff4a4a;
-        }
-      }
-
-      .logo {
-        height: 120px;
-      }
-
-      /* Main styles */
-      main {
-        padding: 20px;
-        
-      }
-
-      h2 {
-        font-size: 1.5em;
-        margin: 10px 0 20px 0;
-        text-align: center;
-        text-shadow: 1px 1px 2px #ff1f1f;
-      }
-
-      p {
-        margin: 0 0 0px 0;
-      }
-
-      .bold {
-        font-weight: bold;
-      }
-
-      .underline {
-        text-decoration: underline;
-      }
-
-      /* Contact styles */
-      .contact {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-      }
-
-      .contact-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #f6c23e;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        margin: 10px 5px;
-        text-decoration: none;
-        font-size: 1.5em;
-        transition: background-color 0.3s;
-        width: 180px;
-        text-align: center;
-      }
-
-      .contact-link:hover {
-        background-color: #ffc107;    
-      }
-
-      .contact-item {
-       margin-left: 10px;
-      }
-
-      .fab {
-          font-size: 2em;
-          margin-right: 10px;
-      }
-      section{
-        border: 2px solid rgb(212, 0, 0);
-        border-radius: 150px 0px 150px 0px;
-        margin: 20px;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 2px 2px 10px rgba(93, 0, 0, 0.607);
-      }
-
-      .faqstyle{
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(104, 0, 0, 0.381);
-      }
-
-      .wechat-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .wechat-text {
-        font-size: 3em;
-        font-weight: bold;
-        text-align: left;
-        }
-
-        .wechat-qr img {
-        width: 400px;
-        height: 400px;
-        }
-        .elementarybook {
-          height: 700px;
-        }
-
-
-      /* Footer styles */
-      footer {
-        color: rgb(67, 0, 0);
-        text-align: center;
-        padding: 10px;
-        font-size: 0.4em;
-      }
-      .video{
-        text-align: center;
-        align-items: center;
-        align-self: center;
-        align-content: center;
-      }
-      li{
-        margin-left: 200px ;
-      }
-
-      /* Styling for the FAQ section */
-      .faq {
-        margin-bottom: 30px;
-      }
-
-      .faq__question {
-        font-weight: bold;
-        font-size: 20px;
-        margin-bottom: 10px;
-        padding: 10px 20px;
-        color: #fff;
-        background-color: #1e90ff;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: background-color 0.3s ease-in-out;
-      }
-
-      .faq__question:hover {
-        background-color: #0077be;
-      }
-
-      .faq__answer {
-        font-size: 16px;
-        line-height: 1.5;
-        padding: 10px 20px;
-        border: 1px solid #ccc;
-        border-radius: 20px;
-        background-color: #f5f5f5;
-        display: none;
-      }
-
-      .faq__answer.is-open {
-        display: block;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -230,11 +16,11 @@
       <h3> We're gonna make you speak fluent English whether you like it or not Lol) </h3>
         <section>
           <h2>Class Time</h2>
-          <p>The course runs for 12 weeks, with 1.5-hour lessons every Monday, Wednesday, and Friday from 5:30pm to 7pm.</p>
+          <p>The course runs for 12 weeks, with 1.5-hour lessons every Monday, Wednesday, and Friday from 5:30 pm to 7 pm.</p>
         </section>
         <section>
           <h2>Class Teacher</h2>
-          <p>Our experienced and qualified teacher Ms Ejesh with a passion for teaching will help YOU achieve Your goals!</p>
+          <p>Our experienced and qualified teacher Ms. Ejesh with a passion for teaching will help YOU achieve Your goals!</p>
           <div class="video">
             <video class="video" width="640" height="400" controls>
             <source src="https://v-education.github.io/video1.mp4" type="video/mp4">
@@ -244,16 +30,16 @@
         </section>
         <section>
           <h2>Course Fee</h2>
-          <p>The course monthly fee is 159rmb, for the whole course it's 477rmb, which includes Amazing learning experience and meeting interesting fellows. Just unforgettable memories for forgettable price LoL)</p>
+          <p>The course monthly fee is 159rmb, and for the whole course, it's 477rmb, which includes an Amazing learning experience and meeting interesting fellows. Just unforgettable memories for forgettable price LoL)</p>
         </section>
         <section>
-          <h2>Choose this course you have difficulty understanding this sentence:</h2>
-          <p>Travelers booked a hotel and on Wednesday they caught a plane to go sightseeing.</p>
+          <h2>Choose this course if you have difficulty understanding this story:</h2>
+          <p>Maggie was excited to go on a trip to New York City. She had always wanted to see the Statue of Liberty and visit Times Square. She woke up early and took a taxi to the airport. On the plane, she sat next to a friendly woman who asked her where she was going. Maggie said, "I'm going to New York City for vacation." The woman replied, "That sounds like fun! What are you planning to do there?" Maggie said, "I want to visit the Statue of Liberty and see the lights in Times Square." The woman said, "Those are great ideas! Have a wonderful trip!"</p>
         </section>
         <div class="faqstyle"> 
         <h2>FAQs</h2>
         <div class="faq">
-          <div class="faq__question" onclick="toggleAnswer(1)">Why shold I choose you?</div>
+          <div class="faq__question" onclick="toggleAnswer(1)">Why should I choose you?</div>
           <div class="faq__answer" id="answer-1">
             We offer the cheapest and high-quality English language courses in China. You will start truly speaking in English with the help of our interesting teacher and having fun with your foreign coursemates!
           </div>
@@ -261,7 +47,7 @@
         <div class="faq">
           <div class="faq__question" onclick="toggleAnswer(2)">How long are your courses?</div>
           <div class="faq__answer" id="answer-2">
-            3 Month (12 weeks).
+            3 Months (12 weeks).
           </div>
         </div>
         <div class="faq">
@@ -271,7 +57,20 @@
           </div>
         </div>
         <div class="faq">
-          <div class="faq__question" onclick="toggleAnswer(4)">How many student will there be in one class?</div>
+          <div class="faq__question" onclick="toggleAnswer(8)">What material do we use to study?</div>
+          <div class="faq__answer" id="answer-8">
+            <p>The course covers basic grammar, vocabulary, reading and writing skills, and conversational practice. During the course, we will use HEADWAY 5th edition Elementary course book.</p>
+          <img src="https://elifkitabevim.com/image/cache/catalog/headway-elm-575x575.png" alt="Logo" class="elementarybook">
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(6)">How to get the class material?</div>
+          <div class="faq__answer" id="answer-6">
+            We provide you with the PDF of books for absolutely FREE. You can also purchase printed books for 99rmb from us. 
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question" onclick="toggleAnswer(4)">How many students will there be in one class?</div>
           <div class="faq__answer" id="answer-4">
             We have max 10 students in one classroom.
           </div>
@@ -283,34 +82,22 @@
           </div>
         </div>
         <div class="faq">
-          <div class="faq__question" onclick="toggleAnswer(6)">How to get the class material?</div>
-          <div class="faq__answer" id="answer-6">
-            We provide you with the PDF of books for absolutely FREE. You can also purhase printed books for 99rmb from us. 
-          </div>
-        </div>
-        <div class="faq">
           <div class="faq__question" onclick="toggleAnswer(7)">Can I study for FREE?</div>
           <div class="faq__answer" id="answer-7">
-            YES! If you finish this courses exams with 100%, You can study Pre-Intermediate course for FREE!
+            YES! If you finish this course's exams with 100%, You can study the Pre-Intermediate course for FREE!
           </div>
         </div>
-        <div class="faq">
-          <div class="faq__question" onclick="toggleAnswer(8)">What material do we use to study?</div>
-          <div class="faq__answer" id="answer-8">
-            <p>The course covers basic grammar, vocabulary, reading and writing skills, and conversational practice. During the course we will use HEADWAY 5th edition Elementary course book.</p>
-          <img src="https://elifkitabevim.com/image/cache/catalog/headway-elm-575x575.png" alt="Logo" class="elementarybook">
-          </div>
-        </div>
+
         <div class="faq">
           <div class="faq__question" onclick="toggleAnswer(9)">Any Gifts for excellent students?</div>
           <div class="faq__answer" id="answer-9">
-            Sure! We give exclusive V-Education notebook to students who get 1st 2nd and 3rd highest scores.
+            Sure! We give exclusive V-Education notebooks to students who get 1st 2nd and 3rd highest scores in the season.
           </div>
         </div>
         </div>
         <div class="wechat-section">
             <div class="wechat-text">
-                <p>For further information or application, please add our official Wechat account:</p>
+                <p>For further information or application, please add our official WeChat account:</p>
             </div>
             <div class="wechat-qr">
                 <img src="https://v-education.github.io/wechatqr.jpg" alt="Wechat QR code">
